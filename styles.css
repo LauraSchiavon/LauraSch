@@ -1,0 +1,209 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+
+.imageLogo {
+    max-width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.menu {
+    background-color: #389cd6;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .sobre, .menu .produtos, .menu .saude {
+    padding: 8px 30px; 
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.menu .sobre::after, .menu .produtos::after, .menu .saude::after {
+    content: '\25BC'; 
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.imageSearch {
+    max-width: 30px;
+    margin-left: auto; 
+}
+
+
+.imageInicio {
+    width: 100%;
+    height: auto;
+}
+
+.imageInicio img {
+    width: 100%;
+    height: auto;
+}
+
+
+.text1, .text2 {
+    text-align: center;
+}
+
+
+.text1 strong, .text2 strong {
+    font-size: 24px; 
+    color: #389cd6;
+}
+
+
+.ImageIcon {
+    text-align: center;
+}
+
+.ImageIcon img {
+    width: 100%;
+    height: auto;
+}
+
+
+strong {
+    display: block;
+    text-align: center;
+    color: #389cd6;
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 200px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.products p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.products button {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.bannerMid img {
+    width: 100%;
+    height: auto;
+}
+
+.imageEnd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imageEnd .image11,
+.imageEnd .image12,
+.imageEnd .image13 {
+    width: calc(33.33% - 10px); 
+    margin-bottom: 20px; 
+}
+
+.imageEnd img {
+    width: 100%; 
+    height: auto;
+}
+
+.imageEnd p {
+    text-align: center;
+    margin-bottom: 10px;
+    width: calc(33.33% - 10px); 
+}
+
+.imageEnd button {
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button button {
+    background-color: #389cd6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #389cd6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px; 
+}
+
+
+.textfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfooter div {
+    margin: 0 10px; 
+}
+
+
+.imagefooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.imagefooter .insta {
+    order: 2; 
+
+}
+
+.imagefooter .labs {
+    order: 1; 
+}
+
+.imagefooter img {
+    width: 50px; 
+    height: auto;
+    margin: 0 500px; 
+}
